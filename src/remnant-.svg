@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1586" viewBox="0 0 1580 1790">
+<rect width="1580" height="1790" fill="#ffffff"/>
+<polyline points="1420,1120 150,1120 150,440 1000,440 1000,150 1290,150 1290,410 1430,410" fill="none" stroke="#d32f2f" stroke-width="4" stroke-linejoin="miter"/>
+<text x="785" y="1150" font-size="20" font-weight="bold" text-anchor="middle" fill="#d32f2f">1270mm</text>
+<text x="115" y="780" font-size="20" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f">680mm</text>
+<text x="575" y="425" font-size="20" font-weight="bold" text-anchor="middle" fill="#d32f2f">850mm</text>
+<text x="1035" y="295" font-size="20" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f">290mm</text>
+<text x="1145" y="135" font-size="20" font-weight="bold" text-anchor="middle" fill="#d32f2f">290mm</text>
+<text x="1325" y="280" font-size="20" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f">260mm</text>
+<text x="1360" y="395" font-size="20" font-weight="bold" text-anchor="middle" fill="#d32f2f">140mm</text>
+<text x="1460" y="765" font-size="20" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#d32f2f">1230mm</text>
+<text x="790" y="60" font-size="28" font-weight="bold" text-anchor="middle" fill="#000">Remnant Shape - CUSTOM PATTERN</text>
+<text x="790" y="95" font-size="18" text-anchor="middle" fill="#666">1280×1490mm</text>
+<text x="790" y="130" font-size="16" font-weight="bold" text-anchor="middle" fill="#ff0000">⚠ Pattern does not close - verify edge order</text>
+</svg>
