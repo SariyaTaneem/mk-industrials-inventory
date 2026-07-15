@@ -1213,8 +1213,7 @@ const handleApproveRemnantAndGenerateBarcode = async (e: React.FormEvent) => {
       svg: currentRemnant.svg,
       rack: remnantFormData.rack,
       location: remnantFormData.location,
-      isRemnantGeneration: true,  // ⭐ Flag for remnant generation
-      isRemnantGeneration: false  // ⭐ Flag for final approval (not generating new remnants)
+      isRemnantGeneration: true
     }
 
     allDimensionStrings.forEach((dimStr, index) => {
