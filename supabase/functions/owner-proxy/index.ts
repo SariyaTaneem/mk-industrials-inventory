@@ -1,7 +1,7 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 
 const SUMMARY_URL = "https://n8n.mkindustrials.com/webhook/owner/summary";
-const SET_PRICE_URL = "https://n8n.mkindustrials.com/webhook-test/owner/set-price";
+const SET_PRICE_URL = "https://n8n.mkindustrials.com/webhook/owner/set-price";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -19,17 +19,11 @@ Deno.serve(async (req: Request) => {
 
   try {
     if (path === "/summary" || path === "/summary/") {
-      // Try GET first, then POST
-      let upstream: Response;
-      try {
-        upstream = await fetch(SUMMARY_URL, { method: "GET" });
-      } catch {
-        upstream = await fetch(SUMMARY_URL, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: "{}",
-        });
-      }
+      const upstream = await fetch(SUMMARY_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: "{}",
+      });
       const data = await upstream.json();
       return new Response(JSON.stringify(data), {
         status: upstream.status,
