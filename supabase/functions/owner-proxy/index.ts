@@ -1,6 +1,6 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 
-const SUMMARY_URL = "https://n8n.mkindustrials.com/webhook-test/owner/summary";
+const SUMMARY_URL = "https://n8n.mkindustrials.com/webhook/owner/summary";
 const SET_PRICE_URL = "https://n8n.mkindustrials.com/webhook-test/owner/set-price";
 
 const corsHeaders = {
